@@ -3,6 +3,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * Department
@@ -34,6 +35,16 @@ class Department
      * @ORM\Column(name="Capacity", type="integer", length = 10)
      */
     private $capacity;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Student", mappedBy="department")
+     */
+    private $students;
+
+    public function __construct()
+    {
+        $this->students = new ArrayCollection();
+    }
 
 
     /**
