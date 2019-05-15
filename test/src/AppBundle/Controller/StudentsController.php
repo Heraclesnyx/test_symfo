@@ -4,14 +4,13 @@ namespace AppBundle\Controller;
 
 use AppBundle\Entity\Student;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-//use Doctrine\ORM\EntityRepository;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Component\Routing\Annotation\Route;use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Student controller.
  *
- * @Route("/student")
+ * @Route("student")
  */
 class StudentsController extends Controller
 {
@@ -33,7 +32,7 @@ class StudentsController extends Controller
     }
 
     /**
-     * Creates a new customer entity.
+     * Creates a new Student entity.
      *
      * @Route("/new", name="student_new")
      * @Method({"GET", "POST"})
@@ -73,8 +72,7 @@ class StudentsController extends Controller
      */
     public function showAction(Student $student)
     {
-        /*dump($customer);die();*/
-        //dump(count($customer->getBooks()));die();
+
         $deleteForm = $this->createDeleteForm($student);
 
         return $this->render('student/show.html.twig', array(
