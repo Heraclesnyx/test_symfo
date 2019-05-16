@@ -13,8 +13,9 @@ class StudentType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('lastname')->add('firstname')->add('numetud');
-    }/**
+        $builder->add('lastname', null, ['required'=>true])->add('firstname', null, ['required'=>true])->add('numetud', null,['required' => true]);
+    }
+    /**
  * {@inheritdoc}
  */
     public function configureOptions(OptionsResolver $resolver)
