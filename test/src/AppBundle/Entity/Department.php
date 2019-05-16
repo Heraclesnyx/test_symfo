@@ -104,5 +104,21 @@ class Department
     {
         return $this->capacity;
     }
+
+    /**
+     * Get students
+     */
+    public function getStudents()
+    {
+        return $this->students;
+    }
+
+    /**
+     * @param mixed $students
+     */
+    public function setStudents($students)
+    {
+        $this->students = $students;
+    }
 }
 
