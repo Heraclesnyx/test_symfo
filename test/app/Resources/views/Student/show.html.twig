@@ -26,14 +26,14 @@
 
     <ul>
         <li>
-            <a href="{{ path('student_index') }}">Back to the list</a>
+            <a href="{{ path('student_index') }}" class="btn btn-secondary">Back to the list</a>
         </li>
         <li>
-            <a href="{{ path('student_edit', { 'id': student.id }) }}">Edit</a>
+            <a href="{{ path('student_edit', { 'id': student.id }) }}" class="btn btn-warning">Edit</a>
         </li>
         <li>
             {{ form_start(delete_form) }}
-            <input type="submit" value="Delete">
+            <input class="btn btn-danger" type="submit" value="Delete">
             {{ form_end(delete_form) }}
         </li>
     </ul>
