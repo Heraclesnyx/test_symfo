@@ -3,6 +3,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Student
@@ -24,6 +25,9 @@ class Student
     /**
      * @var string
      *
+     * @Assert\NotBlank
+     * @Assert\Regex("/[a-zA-Z]/")
+     *
      * @ORM\Column(name="FirstName", type="string", length=25)
      */
     private $firstName;
@@ -31,12 +35,19 @@ class Student
     /**
      * @var string
      *
+     * @Assert\NotBlank
+     * @Assert\Regex("/[a-zA-Z]/")
+     *
      * @ORM\Column(name="LastName", type="string", length=25)
      */
     private $lastName;
 
     /**
      * @var int
+     *
+     * @Assert\NotBlank
+     * @Assert\Length(min=10, max=10)
+     * @Assert\Regex("/[0-9]/")
      *
      * @ORM\Column(name="NumEtud", type="integer", length=10)
      */

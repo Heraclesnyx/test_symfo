@@ -5,6 +5,7 @@ namespace AppBundle\Form;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 class StudentType extends AbstractType
 {
@@ -13,7 +14,7 @@ class StudentType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('lastname', null, ['required'=>true])->add('firstname', null, ['required'=>true])->add('numetud', null,['required' => true]);
+        $builder->add('lastname', TextType::class, ['required'=>true])->add('firstname', TextType::class, ['required'=>true])->add('numetud', TextType::class,['required' => true]);
     }
     /**
  * {@inheritdoc}

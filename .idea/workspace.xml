@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="66fe2fbd-1577-4280-85c7-5e63bd6db802" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/AppBundle/Entity/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/AppBundle/Entity/Student.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/AppBundle/Form/StudentType.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/AppBundle/Form/StudentType.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,13 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/AppBundle/Form/StudentType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="15" column="140" lean-forward="true" selection-start-line="15" selection-start-column="140" selection-end-line="15" selection-end-column="140" />
+            <state relative-caret-position="612">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#34#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/src/AppBundle/Entity/Student.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="e#36#68#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/src/AppBundle/Entity/Student.php" />
         <option value="$PROJECT_DIR$/test/app/Resources/views/Student/login.html.twig" />
         <option value="$PROJECT_DIR$/test/app/Resources/views/Student/register.html.twig" />
         <option value="$PROJECT_DIR$/test/src/AppBundle/Controller/StudentsController.php" />
@@ -62,6 +74,7 @@
         <option value="$PROJECT_DIR$/test/app/Resources/views/Student/edit.html.twig" />
         <option value="$PROJECT_DIR$/test/app/Resources/views/Student/new.html.twig" />
         <option value="$PROJECT_DIR$/test/src/AppBundle/Form/StudentType.php" />
+        <option value="$PROJECT_DIR$/test/src/AppBundle/Entity/Student.php" />
       </list>
     </option>
   </component>
@@ -190,6 +203,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_symfo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_symfo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,7 +261,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23941000" />
+    <option name="totallyTimeSpent" value="27263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -325,13 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/AppBundle/Entity/Student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -392,10 +406,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/AppBundle/Form/StudentType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="15" column="140" lean-forward="true" selection-start-line="15" selection-start-column="140" selection-end-line="15" selection-end-column="140" />
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#34#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/AppBundle/Entity/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#36#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
